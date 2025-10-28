@@ -1,0 +1,38 @@
+body {
+  background: whitesmoke;
+  color: black;
+  font-family: Arial;
+  padding: 20px;
+}
+
+.keyboard {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(14, 60px);
+  grid-auto-rows: 60px; 
+  justify-content: center; 
+  margin: 0 auto;
+}
+
+.key {
+  display: grid;
+  place-items: center;
+  background: white;
+  color: black;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  user-select: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+}
+
+.key .small {
+  color: grey;
+  font-size: 12px;
+}
+
+.key.wide   { grid-column: span 2; }  
+.key.wider  { grid-column: span 2; }   
+.key.shift  { grid-column: span 3; }   
+.key.space  { grid-column: span 5; }  
