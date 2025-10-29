@@ -26,7 +26,26 @@ body {
   user-select: none;
   box-shadow: 0 2px 4px rgba(0,0,0,0.12);
 }
-
+.key:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
+.key.wide:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
+.key.wider:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
+.key.shift:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
+.key.space:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
 .key .small {
   color: grey;
   font-size: 12px;
