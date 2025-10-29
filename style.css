@@ -50,7 +50,36 @@ body {
   color: grey;
   font-size: 12px;
 }
-
+.key:active{
+  cursor: pointer;
+  background: black;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
+.key.wide:active{
+  cursor: pointer;
+  background: black;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
+.key.wider:active{
+  cursor: pointer;
+  background: black;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
+.key.shift:active{
+  cursor: pointer;
+  background: black;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
+.key.space:active{
+  cursor: pointer;
+  background: black;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
 .key.wide   { grid-column: span 2; }  
 .key.wider  { grid-column: span 2; }   
 .key.shift  { grid-column: span 3; }   
